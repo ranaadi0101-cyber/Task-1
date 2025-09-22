@@ -15,4 +15,4 @@ Scan the local network to identify devices and their open TCP ports to understan
 
 Command used:
 ```bash
-nmap -sS 192.168.153.0/24 -oN scan_results.txt
+nmap -sS 127.0.0.1/8 -oN scan_results.txt
