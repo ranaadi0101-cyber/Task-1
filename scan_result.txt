@@ -1,0 +1,33 @@
+nmap -sS 127.0.0.1/8 -oN scan_results.txt
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-22 09:47 EDT
+Stats: 0:00:04 elapsed; 253 hosts completed (2 up), 2 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 52.70% done; ETC: 09:47 (0:00:02 remaining)
+Stats: 0:00:06 elapsed; 253 hosts completed (2 up), 2 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 73.80% done; ETC: 09:47 (0:00:01 remaining)
+Stats: 0:00:08 elapsed; 253 hosts completed (2 up), 2 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.75% done; ETC: 09:47 (0:00:00 remaining)
+Nmap scan report for 10.0.2.2
+Host is up (0.0080s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+5357/tcp open  wsdapi
+9080/tcp open  glrpc
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+
+Nmap scan report for 127.0.0.1
+Host is up (0.010s latency).
+Not shown: 999 filtered tcp ports (net-unreach)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 52:55:0A:00:02:03 (Unknown)
+
+Nmap scan report for 127.0.0.1
+Host is up (0.0000010s latency).
+All 1000 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (3 hosts up) scanned in 8.44 seconds
